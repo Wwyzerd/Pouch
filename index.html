@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Welcome To Pouch!</title>
+	<style>
+	.bg {
+    background-image: url("Background.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	</style>
+  <link rel='stylesheet' href='http://codepen.io/assets/libs/fullpage/jquery-ui.css'>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body class="bg" >
+
+  <div class="login-card">
+    <h1>Welcome To POUCH!</h1><br>
+  <form action = "home.php" method = "get">
+    <input type="text" name="user" placeholder="Username" required="required">
+    <input type="password" name="pass" placeholder="Password" required="required">
+    <input type="submit" name="login" class="login login-submit" value="login">
+  </form>
+
+  <div class="login-help">
+    <a href="signup.html">Don't Have an Account? Register Here</a> 
+  </div>
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery_and_jqueryui.js'></script>
+
+</body>
+
+</html>
